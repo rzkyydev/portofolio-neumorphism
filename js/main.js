@@ -288,7 +288,8 @@ var text = ""
 
 var textArr = [
   "I'm Rizky Fadilah",
-  "Full Stack Developer"
+  "I'm a Full Stack Developer",
+  "Call me if you need help"
 ]
 
 var currentTextIndex = -1
