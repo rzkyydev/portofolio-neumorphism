@@ -48,6 +48,41 @@ body.hidden-scrolling {
   overflow-y: hidden;
 }
 
+.cursor{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  transition: transform .3s ease;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.grow, .grow-small{
+    transform: scale(10);
+    background: #fff;
+    mix-blend-mode: difference;
+    border: none;
+}
+
+.grow, .grow-versmall{
+  transform: scale(10);
+  background: #fff;
+  mix-blend-mode: difference;
+  border: none;
+}
+
+.grow-small{
+    transform: scale(2.5);
+}
+
+.grow-versmall{
+  transform: scale(1);
+}
+
 *:not(i) {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
